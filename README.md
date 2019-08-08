@@ -11,9 +11,9 @@ A sample list of input values is,
 - Number of Stars: 150 (APR), 110 (SLY).
 
 The Equations of State, 'eosapr.dat' and 'eossly.dat' are saved in a three column format with the quatities in the order:
- <b                           Pressure (MeV/fm^3) | Energy Density (MeV/fm^3) | Number Density (/fm^3)   >
- 
- 
+                 ```       **  Pressure (MeV/fm^3) | Energy Density (MeV/fm^3) | Number Density (/fm^3)   **   ```
+
+Some EoS ('eossly_original.dat') are by default in the cgs units and have the first and the third column swaped. 'eosConverter.py' can be used for converting the EoS to the desired format and units.
 
 TOV equation refers to the Tolman-Oppenheimer-Volkov Equation, which is a general relativistic hydrostatic equilibrium equation for a static, sperically symmetric star. For more look [here](https://www.wikiwand.com/en/Tolman%E2%80%93Oppenheimer%E2%80%93Volkoff_equation).
 
