@@ -2,7 +2,7 @@
 
 This repository contains two python routines, 'tovsolver_onestar.py' & 'tovsolver.py',  and two Equations of States (EoS), APR & SLY.
 
-'tovsolver_onestar.py' solves the TOV equation for a single star, going from its center to the surface. The radial variation of the mass can be visualised and tabulated. Inputs are the center energy density of the star in MeV/fm^3 and the EoS file. 
+```tovsolver_onestar.py``` solves the TOV equation for a single star, going from its center to the surface. The radial variation of the mass can be visualised and tabulated. Inputs are the center energy density of the star in MeV/fm^3 and the EoS file. 
 
 'tovsolver.py' solves TOV equation for a given number of stars and the gets the Mass-Radius Curve for the chosen EoS. Additionally, it gets the value of the apsidal constant k2 for the Neutron Stars. The maximum value of k2 and the corresponding mass and radius values can be used to calculate the periastron precession rate of the eccentric binary if other parameters are known.
 
@@ -11,7 +11,7 @@ A sample list of input values is,
 - Number of Stars: 150 (APR), 110 (SLY).
 
 The Equations of State, 'eosapr.dat' and 'eossly.dat' are saved in a three column format with the quatities in the order:
-                 ```       **  Pressure (MeV/fm^3) | Energy Density (MeV/fm^3) | Number Density (/fm^3)   **   ```
+                 ```         Pressure (MeV/fm^3) | Energy Density (MeV/fm^3) | Number Density (/fm^3)      ```
 
 Some EoS ('eossly_original.dat') are by default in the cgs units and have the first and the third column swaped. 'eosConverter.py' can be used for converting the EoS to the desired format and units.
 
