@@ -13,8 +13,10 @@ A sample list of input values is,
 The Equations of State, 'eosapr.dat' and 'eossly.dat' are saved in a three column format with the quatities in the order:
                  ```         Pressure (MeV/fm^3) | Energy Density (MeV/fm^3) | Number Density (/fm^3)      ```
 
-Our code can be used for other EoSs too. However, some EoSs might be available in the literature in different units and columns might be in a different order. Care should be taken to first convert the EoS into the above-mentioned form. As an example, eossly_original.dat is the original Sly EoS obtained from [SLY] (https://github.com/thomascarreau/TOVsolver/tree/master/eos). This has different columns as: 
-```     Number Density (in /fm^3) | Mass Density (in g/cm^3) | Pressure (in MeV/fm^3).      ```
+Our code can be used for other EoSs too. However, some EoSs might be available in the literature in different units and columns might be in a different order. Care should be taken to first convert the EoS into the above-mentioned form. As an example, eossly_original.dat is the original Sly EoS obtained from [SLY](https://github.com/thomascarreau/TOVsolver/tree/master/eos). This has different columns as: 
+```
+Number Density (in /fm^3) | Mass Density (in g/cm^3) | Pressure (in MeV/fm^3)
+```
 
 The code ```eosConverter.py``` is used to convert it to the form required by our code ('eossly.dat'). 
 
