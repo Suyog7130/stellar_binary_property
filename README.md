@@ -14,9 +14,9 @@ The Equations of State, 'eosapr.dat' and 'eossly.dat' are saved in a three colum
                  ```         Pressure (MeV/fm^3) | Energy Density (MeV/fm^3) | Number Density (/fm^3)      ```
 
 Our code can be used for other EoSs too. However, some EoSs might be available in the literature in different units and columns might be in a different order. Care should be taken to first convert the EoS into the above-mentioned form. As an example, eossly_original.dat is the original Sly EoS obtained from [SLY] (https://github.com/thomascarreau/TOVsolver/tree/master/eos). This has different columns as: 
-``` Number Density (in /fm^3) | Mass Density (in g/cm^3) | Pressure (in MeV/fm^3). ```
+```     Number Density (in /fm^3) | Mass Density (in g/cm^3) | Pressure (in MeV/fm^3).      ```
 
-The code eosConverter.py is used to convert it to the form required by our code (```eossly.dat```). 
+The code ```eosConverter.py``` is used to convert it to the form required by our code ('eossly.dat'). 
 
 TOV equation refers to the Tolman-Oppenheimer-Volkov Equation, which is a general relativistic hydrostatic equilibrium equation for a static, sperically symmetric star. For more look [here](https://www.wikiwand.com/en/Tolman%E2%80%93Oppenheimer%E2%80%93Volkoff_equation).
 
