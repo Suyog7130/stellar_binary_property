@@ -259,9 +259,10 @@ def main ():
     radius /= 1000
     mass /= M_sun  
     
-    print('\n For the given EoS, we have:\n     Maximum Mass -> ',
-          max(mass), ' M_sun', '\n	Corresponding Radius  -> ',
-          float(radius[np.where(mass==max(mass))]), ' Km \n')   
+    print('\n For the given EoS, we have:\n  Maximum Mass -> ',
+          max(mass), ' M_sun', '\n  Corresponding Radius  -> ',
+          float(radius[np.where(mass==max(mass))]), ' Km', 
+          '\n  Corresponding k2 -> ', float(k2[np.where(mass==max(mass))]), '\n')   
 
     #--------------------------------------------------#
     ans1 = input('Do you want to store the output? (Y/N):\t')
@@ -280,10 +281,10 @@ def main ():
         
         if query1=='radius':
             x = radius
-            xname = 'Radius $(Km)$'
+            xname = 'Radius (Km)'
         if query2=='radius':
             y = radius
-            yname = 'Radius $(Km)$'
+            yname = 'Radius (Km)'
         if query1=='mass':
             x = mass
             xname = 'Mass $(M_{\odot})$'
@@ -318,4 +319,3 @@ main()
    
 #####################--End of Program--##################################
 #########################################################################
-
