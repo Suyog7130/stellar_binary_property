@@ -220,7 +220,7 @@ def eq_solve (L, e0, h):
     if ans1=='Y':
         fname1 = input('Give the table name in which to store the output:\t')
         with open(fname1, 'w') as f:
-            for a, b, c  in zip(radius, mass, yr):
+            for a, b, c  in zip(radialDist, mass, yr):
                 f.write('{}\t{}\t{}\n'.format(a,b,c))    
         
     ans = input('Do you want to see the Mass variation within the star (Y/N)?\t')
@@ -272,10 +272,10 @@ def main ():
         
         if query1=='radius':
             x = R
-            xname = 'Radius $(Km)$'
+            xname = 'Radius (Km)'
         if query2=='radius':
             y = R
-            yname = 'Radius $(Km)$'
+            yname = 'Radius (Km)'
         if query1=='mass':
             x = M
             xname = 'Mass $(M_{\odot})$'
