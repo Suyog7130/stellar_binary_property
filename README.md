@@ -1,4 +1,4 @@
-# tovsolver
+# Stellar Binary Properties
 
 This repository contains two python routines, ```tovsolver_onestar.py``` & ```tovsolver.py```,  and two Equations of States (EoS), APR & SLY.
 
