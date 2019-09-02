@@ -1,10 +1,12 @@
 # Stellar Binary Properties
 
-This repository contains two python routines, ```tovsolver_onestar.py``` & ```tovsolver.py```,  and two Equations of States (EoS), APR & SLY.
+This repository contains three python routines, ```tidal_precession.py```, ```tovsolver_onestar.py``` & ```tovsolver_k2.py```,  and two Equations of States (EoS), APR & SLY.
 
 ```tovsolver_onestar.py``` solves the TOV equation for a single star, going from its center to the surface. The radial variation of the mass can be visualised and tabulated. Inputs are the center energy density of the star in MeV/fm^3 and the EoS file. 
 
-```tovsolver.py``` solves TOV equation for a given number of stars and the gets the Mass-Radius Curve for the chosen EoS. Additionally, it gets the value of the apsidal constant k2 for the Neutron Stars. 
+```tovsolver.py``` solves TOV equation for a given number of stars and the gets the Mass-Radius Curve for the chosen EoS. Additionally, it gets the value of the apsidal constant k2 for the Neutron Stars.
+
+```tidal_precession.py``` calculates the value of the tidal component to the periastron precession of a binary. Input required are the two masses, radius of the first body and the apsidal constant.
 
 A sample list of input values is, 
 - Center energy density: 153.27 MeV/fm^3 (APR), 200.0 MeV/fm^3 (SLY).
