@@ -25,6 +25,6 @@ The code ```eosConverter.py``` is used to convert it to the form required by our
 
 TOV equation refers to the Tolman-Oppenheimer-Volkov Equation, which is a general relativistic hydrostatic equilibrium equation for a static, sperically symmetric star. For more look [here](https://www.wikiwand.com/en/Tolman%E2%80%93Oppenheimer%E2%80%93Volkoff_equation).
 
-See [Suyog Garg and Manjari Bagchi 2019 Res. Notes AAS 3 125](https://doi.org/10.3847/2515-5172/ab3faf) for more details on the project.
+See [Suyog Garg and Manjari Bagchi 2019 *Res. Notes AAS* **3** 125](https://doi.org/10.3847/2515-5172/ab3faf) for more details on the project.
 
 [![DOI](https://zenodo.org/badge/197245843.svg)](https://zenodo.org/badge/latestdoi/197245843)
