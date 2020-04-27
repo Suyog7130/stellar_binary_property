@@ -75,11 +75,9 @@ def main ():
     print('k2:\t', k2)
     print('aNS:\t', aNS/1000, ' km')"""
     print(' omegadot_tidal:\t', precession, ' deg/yr')
-    
-main()
-        
 
-    
+if __name__=="__main__":    
+    main()
 
   
 
